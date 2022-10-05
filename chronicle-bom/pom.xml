@@ -42,17 +42,17 @@
     <dependencyManagement>
         <dependencies>
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle.exchange</groupId>
                 <artifactId>oms</artifactId>
                 <version>${chronicle.crypto.exchange}</version>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle.exchange</groupId>
                 <artifactId>common</artifactId>
                 <version>${chronicle.crypto.exchange}</version>
-            </dependency>
+            </dependency-->
             
             <dependency>
                 <groupId>net.openhft.com.binance.api</groupId>
@@ -122,11 +122,11 @@
                 <version>3.17.0</version>
             </dependency>
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-map-enterprise</artifactId>
                 <version>2.17.2</version>
-            </dependency>
+            </dependency-->
 
             <dependency>
                 <groupId>net.openhft</groupId>
@@ -147,139 +147,140 @@
                 <version>2.17.0</version>
             </dependency>
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-wire-enterprise</artifactId>
                 <version>2.17.0</version>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-market-data-distributor</artifactId>
                 <version>2.17.5</version>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-queue-enterprise</artifactId>
                 <version>2.17.2</version>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-42</artifactId>
                 <version>${chronicle.fix.version}</version>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-codegenerator</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
-            </dependency>
+                <version>${chronicle.fix.version}</version>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-schema-optimizer</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
-            </dependency>
+                <version>${chronicle.fix.version}</version>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-runtime-guarded</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
-            </dependency>
+                <version>${chronicle.fix.version}</version>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-itch-runtime</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
-            </dependency>
+                <version>${chronicle.fix.version}</version>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-itch-cboe</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
-            </dependency>
+                <version>${chronicle.fix.version}</version>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-runtime</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
-            </dependency>
+                <version>${chronicle.fix.version}</version>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-runtime</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
+                <version>${chronicle.fix.version}</version>
                 <type>test-jar</type>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-fix-acceptance-tests</artifactId>
-                <version>${chronicle.fix.version}</version> <!-- available to supported clients -->
-            </dependency>
+                <version>${chronicle.fix.version}</version>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-all</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>jar</type>
-            </dependency>
-            <dependency>
+            </dependency-->
+
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-api</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>jar</type>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-api</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>test-jar</type>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-ring</artifactId>
                 <version>2.17.0</version>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-config</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>jar</type>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-replication</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>jar</type>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-runner</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>jar</type>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-perftest</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>jar</type>
-            </dependency>
+            </dependency-->
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-services-perftest</artifactId>
                 <version>${chronicle.services.version}</version>
                 <type>test-jar</type>
-            </dependency>
+            </dependency-->
 
             <!--  non-core projects -->
             <dependency>
@@ -372,11 +373,11 @@
                 <version>1.8.0</version>
             </dependency>
 
-            <dependency>
+            <!--dependency>
                 <groupId>software.chronicle</groupId>
                 <artifactId>chronicle-engine-enterprise</artifactId>
                 <version>2.17.0</version>
-            </dependency>
+            </dependency-->
 
             <dependency>
                 <groupId>net.openhft</groupId>
